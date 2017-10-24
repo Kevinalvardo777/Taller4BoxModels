@@ -1,0 +1,148 @@
+html{
+	background-color: #F5F5DC;
+}
+
+#titulo_sitio{   /* 1 */
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow: 3px 2px 2px #bc8609;
+
+}
+
+body{
+	background-image: url(dinner_plate.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	/*background-color: transparent;*/
+	background-size: 60%;
+
+
+}
+
+
+#resumenes{
+	display: inline-block;
+	height: 260px;
+	margin: 2% 1%;
+}
+
+[class*="receta"]{
+	/*position: absolute;*/
+	border-radius: 25px;    /* 3a */
+	margin: 1% 2%;      /* 3g */
+	border: 2pt solid #DC143C;
+	padding: 1.5%;
+	width: 12%;
+	max-height: 100%;
+	/*height: 20%;*/
+	display: inline-block;
+	vertical-align: top;
+}
+
+.receta1{   /* 3b */
+	background-image: url("http://d2p4qauh5fa1j0.cloudfront.net/fotos/recetas/ilustracion/spagh_wOSbJflmWa9MCHEZcBrPT5v2DspytI.jpg");
+	background-repeat: no-repeat;
+	background-size: 320px 120px;
+
+}
+
+.receta2{
+	background-image: url('http://d2p4qauh5fa1j0.cloudfront.net/fotos/recetas/ilustracion/selva_sczRm83H9gSwavPODBQnFKyUh1buLp.jpg');
+	background-size: 200px 120px ;
+	background-repeat: no-repeat;
+	/*right: 150px;*/
+}
+
+
+.receta3{
+	background-image: url('http://d2p4qauh5fa1j0.cloudfront.net/fotos/recetas/ilustracion/patat_XykvN8T1i4JWm3P6uKUp0MEhHzRjdF.jpg');
+	background-size: 220px 120px;
+	background-repeat: no-repeat;
+	/*right: 380px;*/
+}
+
+.receta4{
+	background-image: url('http://d2p4qauh5fa1j0.cloudfront.net/fotos/recetas/ilustracion/s-bal_W5Bs2mvRzO0tM1hafFdPUy3LwXIEQu.jpg');
+	background-size: 220px 120px;
+	background-repeat: no-repeat;
+	/*right: 600px;*/
+}
+
+.receta5{
+	background-image: url('http://d2p4qauh5fa1j0.cloudfront.net/fotos/recetas/ilustracion/quilo_9CJfjkehlnBMSIy6uPriGz5sEWg2bH.jpg');
+	background-size: 220px 120px;
+	background-repeat: no-repeat;
+
+	/*right: 830px;*/
+}
+
+h3 a{    /* 3c */
+	font-variant: small-caps;
+}
+
+h4{      /* 3d */
+	color: #d69f2a;
+}
+
+#descripcion{  /*  3e */
+	font-size: 10px;
+	text-align: justify;
+}
+
+p{
+	text-align: justify;
+
+}
+
+p[class^="descripcion_completa"], audio{
+	position: relative;
+	right: -30px;
+
+}
+
+h3 a:visited{
+	color: #7c652e;
+}
+
+h3 a:hover{
+	text-decoration: none;
+	color: #edc163;
+}
+
+div header{
+	height: 80px;
+	display: inline-block;
+}
+
+div div[id^="cat"]{
+	height: 90px;
+}
+
+
+
+#detalles{
+	margin: 4% 22%;
+
+}
+
+figure, #detalle{
+	display: inline-block;
+	margin: 10px
+}
+
+#detalle{
+	width: 60%;
+
+}
+
+
+
+div[class^="completa"]{
+	border-bottom: 5px solid #DEB887;
+	margin: 10px 0;
+}
+
+[class*="receta"]:hover{
+	/*background:*/ 
+	opacity: 0.7;
+}
